@@ -44,7 +44,7 @@ async def on_message(message):
 
     #if conditional for certain channel variable
     if channel == "updates":
-if condition for the user message along with the client repsonse with else if statments
+    if condition for the user message along with the client repsonse with else if statments
         if user_message.lower() == "downtime" or user_message.lower() == "what is the downtime":
             await message.channel.send(f'Downtime is set for 12/25! {username} Your EC2 Data: {ec2_metadata.region}') #format of string
             return
